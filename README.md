@@ -5,9 +5,9 @@ This repository contains the necessary config files and scripts to run a Cardano
 
 ### Update the Configuration files:
 
-- Directory: ```[nix-shell:~/cnode]$```
+- Directory: ```~/cnode$```
 ```
-./update-config.sh
+sudo ./update-config.sh
 ```
 
 These next two scripts are used to download either the testnet or the mainnet for the Cardano Blockchain. 
