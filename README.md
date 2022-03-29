@@ -3,7 +3,13 @@ This repository contains the necessary config files and scripts to run a Cardano
 
 ## Testnet and Mainnet Scripts for Starting a Node
 
-These two scripts are used to download either the testnet or the mainnet for the Cardano Blockchain. 
+### Update the Configuration files:
+
+- Directory: ```[nix-shell:~/cnode]$```
+```
+./update-config.sh
+
+These next two scripts are used to download either the testnet or the mainnet for the Cardano Blockchain. 
 You must either be in nix-shell, or have the necessary dependencies to run cardano-node. 
 
 ### Testnet Sync Start
